@@ -6,7 +6,7 @@
 # 👥 IBM HR Analytics Dashboard
 
 <p align="center">
-  <img src="Images/Home.png" alt="IBM HR Analytics Dashboard" width="100%">
+  <img src="1_Home.png" alt="IBM HR Analytics Dashboard" width="100%">
 </p>
 
 An interactive **Business Intelligence Dashboard** built with **Power BI** to analyze workforce performance, employee demographics, job satisfaction, promotion eligibility, and retrenchment planning. The project transforms HR data into actionable insights using **Power Query**, **DAX**, and **data modeling** to support strategic Human Resources decisions.
@@ -34,9 +34,9 @@ An interactive **Business Intelligence Dashboard** built with **Power BI** to an
 
 # 📌 Project Overview
 
-Human Resources departments rely on accurate workforce analytics to improve employee satisfaction, identify promotion opportunities, optimize workforce planning, and support data-driven HR strategies.
+Human Resources departments rely on workforce analytics to improve employee satisfaction, optimize workforce planning, identify promotion opportunities, and support strategic HR initiatives.
 
-This dashboard provides an executive overview of employee information, allowing HR managers to monitor organizational performance, analyze workforce distribution, evaluate promotion readiness, and identify employees approaching retrenchment.
+This interactive Power BI dashboard provides executives and HR managers with a comprehensive overview of workforce demographics, employee performance, promotion readiness, and retrenchment planning through dynamic reports and interactive visualizations.
 
 ---
 
@@ -48,7 +48,7 @@ This dashboard provides an executive overview of employee information, allowing 
 - Identify employees approaching retrenchment.
 - Evaluate employee job satisfaction.
 - Analyze overtime trends.
-- Support strategic HR decision-making through interactive dashboards.
+- Support data-driven HR decision-making.
 
 ---
 
@@ -59,8 +59,8 @@ This dashboard provides an executive overview of employee information, allowing 
 - Average Age
 - Average Monthly Income
 - Average Years at Company
-- Promotion Due Employees
-- Retrenchment Due Employees
+- Employees Due for Promotion
+- Employees Due for Retrenchment
 - Overall Job Satisfaction
 
 ---
@@ -69,7 +69,7 @@ This dashboard provides an executive overview of employee information, allowing 
 
 ## 1️⃣ Executive Overview
 
-Provides a high-level summary of workforce demographics and organizational KPIs.
+Provides a high-level overview of workforce demographics and organizational KPIs.
 
 ### Highlights
 
@@ -82,7 +82,7 @@ Provides a high-level summary of workforce demographics and organizational KPIs.
 - Years at Company
 
 <p align="center">
-<img src="Images/Home.png" width="100%">
+<img src="1_Home.png" width="100%">
 </p>
 
 ---
@@ -101,14 +101,14 @@ Analyzes employee performance, job satisfaction, overtime behavior, and departme
 - Job Role Summary
 
 <p align="center">
-<img src="Images/Details.png" width="100%">
+<img src="2_Details.png" width="100%">
 </p>
 
 ---
 
 ## 3️⃣ HR Action Center
 
-Focuses on workforce planning by identifying employees requiring HR attention.
+Focuses on workforce planning by identifying employees who require HR attention.
 
 ### Highlights
 
@@ -117,7 +117,7 @@ Focuses on workforce planning by identifying employees requiring HR attention.
 - Workforce Planning Support
 
 <p align="center">
-<img src="Images/Action.png" width="100%">
+<img src="3_Action.png" width="100%">
 </p>
 
 ---
@@ -130,13 +130,14 @@ Focuses on workforce planning by identifying employees requiring HR attention.
 - Data Modeling
 - Data Cleaning
 - Data Transformation
-- Interactive Visualizations
+- Data Visualization
+- Interactive Reporting
 
 ---
 
 # 📂 Dataset
 
-The dashboard is built using the IBM HR Analytics dataset, which contains employee-level information including:
+The dashboard is built using the IBM HR Analytics dataset, which includes employee-level information such as:
 
 - Employee ID
 - Department
@@ -159,35 +160,35 @@ The dashboard is built using the IBM HR Analytics dataset, which contains employ
 
 - Executive KPI Cards
 - Interactive Slicers
-- Workforce Demographics
+- Workforce Demographics Analysis
 - Promotion Eligibility Analysis
 - Retrenchment Planning
 - Job Satisfaction Analysis
 - Overtime Analysis
-- Employee Performance Monitoring
 - Department Comparison
-- Interactive Navigation
+- Employee Performance Monitoring
+- Interactive Dashboard Navigation
 
 ---
 
 # ❓ Business Questions Answered
 
 - Which departments have the largest workforce?
-- Which employees are due for promotion?
+- Which employees are eligible for promotion?
 - Which employees are approaching retrenchment?
-- How satisfied are employees across departments?
-- Does overtime affect employee performance?
+- How satisfied are employees across different departments?
+- Does overtime impact employee performance?
 - Which job roles require workforce planning?
 
 ---
 
 # 💡 Key Business Insights
 
-- Employee distribution varies significantly across departments.
-- Certain departments contain a larger proportion of promotion-eligible employees.
-- Overtime patterns differ between job roles.
-- Job satisfaction levels are not consistent across departments.
-- Workforce planning can be improved by monitoring promotion and retrenchment indicators.
+- Workforce distribution varies significantly across departments.
+- Promotion eligibility differs between job roles.
+- Overtime patterns vary among departments.
+- Employee satisfaction levels are not consistent across the organization.
+- HR planning can be improved by monitoring promotion and retrenchment indicators.
 
 ---
 
@@ -213,26 +214,25 @@ The dashboard is built using the IBM HR Analytics dataset, which contains employ
 This dashboard enables HR teams to:
 
 - Monitor workforce performance.
-- Support promotion planning.
-- Improve workforce allocation.
+- Improve promotion planning.
+- Support workforce allocation.
 - Identify employees requiring HR intervention.
 - Analyze employee engagement.
-- Support strategic HR decisions using interactive analytics.
+- Support strategic HR decision-making through interactive analytics.
 
 ---
 
 # 📂 Repository Contents
 
-```
+```text
 IBM-HR-Analytics-Dashboard
 │
-├── IBM HR Analytics Dashboard Report.pdf
-├── README.md
-│
-└── Images
-    ├── Home.png
-    ├── Details.png
-    └── Action.png
+├── HR Data Analysis.pbix
+├── IBM-HR-Analytics-Dashboard-Report.pdf
+├── 1_Home.png
+├── 2_Details.png
+├── 3_Action.png
+└── README.md
 ```
 
 ---
@@ -240,10 +240,10 @@ IBM-HR-Analytics-Dashboard
 # 🚀 How to View the Dashboard
 
 1. Download the repository.
-2. Open **IBM_HR_Analytics.pbix** using Power BI Desktop.
-3. Navigate through the dashboard pages.
-4. Use the interactive slicers to explore workforce insights.
-5. Review the included PDF report for additional business analysis.
+2. Open **HR Data Analysis.pbix** using Power BI Desktop.
+3. Navigate through the three dashboard pages.
+4. Use the interactive slicers to explore HR insights.
+5. Review **IBM-HR-Analytics-Dashboard-Report.pdf** for detailed project documentation.
 
 ---
 
@@ -251,9 +251,9 @@ IBM-HR-Analytics-Dashboard
 
 - Employee Attrition Prediction
 - HR Workforce Forecasting
-- Recruitment Analytics
-- Training Effectiveness Dashboard
-- Diversity & Inclusion Analysis
+- Recruitment Analytics Dashboard
+- Training Effectiveness Analysis
+- Diversity & Inclusion Dashboard
 - Executive HR Scorecard
 
 ---
@@ -269,4 +269,4 @@ IBM-HR-Analytics-Dashboard
 
 ---
 
-⭐ If you found this project interesting, consider giving it a **Star** on GitHub.
+⭐ If you found this project useful, consider giving it a **Star** on GitHub.
