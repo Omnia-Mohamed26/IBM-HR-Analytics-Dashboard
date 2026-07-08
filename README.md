@@ -80,9 +80,7 @@ Provides a high-level overview of workforce demographics and organizational KPIs
 - Distance from Home
 - Years at Company
 
-<p align="center">
-<img src="1_Home.png" width="100%">
-</p>
+
 
 ---
 
